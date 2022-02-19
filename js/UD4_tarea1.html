@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Unidad 4 Tarea 1</title>
+    <style>
+        p {
+            font-size: 150%;
+            cursor: pointer;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <p>
+        Si haces click sobre este párrafo
+        verás como se desvanece y vuelve a los 2 segundos
+    </p>
+    <script>
+        $("p").click(function () {
+            $("p").fadeOut(600, function () {
+                $("p").fadeIn(3000);
+            });
+        });
+    </script>
+</body>
+
+</html>
