@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #B5E61D
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    height: 7em;
+    width: 100%;
+    background-color: #B5E61D;
+    position: static;
+}
+
+.logo {
+    
+    height: 100%;  
+}
+.logo a{
+    height: 100%;
+}
+.menu{
+    position: absolute;
+    right: 1%;
+    top: 2em;
+    color: black;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 3em;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+.logo, .menu{
+    display: inline-block;
+}
+.main{
+    
+    width: 100%;
+    height: 100em;
+}
+.img-presentacion{
+    height: 43em;
+    width: 100%;
+    background-color: #a7b38c;
+}
+.img-presentacion img{
+    object-fit: contain;
+}
+.cont-eslogan{
+    height: 8em;
+    width: 100%;
+    position: sticky;
+}
+.eslogan{
+    width: 30%;
+    position: absolute;
+    left: 30%;
+    top: 0.5em;
+    font-size: xx-large;
+    font-style: italic;
+    border: 0.1em solid #a7b38c;
+    padding: 1em;
+    padding-left: 4em;
+}
+.lineas{
+    position: sticky;
+    width: 70%;
+    left: 13%;
+    padding: 3em;  
+}
+
+.linea-cont{
+    background-color: azure;
+    position: sticky;
+    width: 60%;
+    margin-left: 18%; 
+    border: 0.1em solid #a7b38c; 
+    font-size: x-large;
+    padding: 1em;
+}
+.linea-cont li{
+    display: inline-block;
+    border: 0.1em solid #a7b38c;
+    border-collapse: collapse;
+    padding: 0.2em;
+}
+.linea-cont ul{
+    position: sticky;
+    
+}
+
+
+.footer{
+    position: sticky;
+    z-index: 0;
+    background-color: #a7b38c;
+    height: 8em;
+    width: 100%;   
+}
+.datos1{
+    margin-left: 4em;
+}
+
+.footer li{
+    display: inline-block;
+    margin: 2em;   
+    font-size: large;
+}
